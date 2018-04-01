@@ -1,4 +1,5 @@
 /* universal styles */
+
 body {
   margin: 0;
   padding: 0;
@@ -34,7 +35,6 @@ nav {
   margin-right: 10px;
 }
 
-
 a {
   color: seashell;
   opacity: 0.9;
@@ -53,11 +53,18 @@ a {
   flex-direction: column;
 }
 
+h2,
+h4 {
+  padding: 10px;
+  margin: 0;
+}
+
 /* Mission section */
 
 #mission {
   background-image: url(../images/img-mission-background.jpg);
   height: 700px;
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -67,15 +74,11 @@ a {
   width: 100%;
 }
 
-#mission h4 {
-  margin-bottom: 10px;
-}
-
 /* Featured Tea section */
 
 #tea {
   width: 1000px;
-
+  margin: 60px auto;
 }
 
 .selection img {
@@ -94,6 +97,43 @@ a {
   margin: 0 15px;
 }
 
-#tea h4 {
-  margin-top: 10px;
+/* Locations section */
+
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  height: 500px;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.shops {
+  display: flex;
+  justify-content: center;
+}
+
+.shop-box {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.shop-box h4 {
+    font-weight: normal;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  top: 70px;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 15px;
 }
