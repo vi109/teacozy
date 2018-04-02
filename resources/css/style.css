@@ -131,6 +131,7 @@ h4 {
 footer {
   position: relative;
   top: 70px;
+  text-align: center;
 }
 
 #copyright {
