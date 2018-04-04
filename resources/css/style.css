@@ -41,6 +41,10 @@ a {
   padding: 10px;
 }
 
+nav a:hover {
+  background-color: #555;
+}
+
 /* main container */
 
 .container {
@@ -131,7 +135,6 @@ h4 {
 footer {
   position: relative;
   top: 70px;
-  text-align: center;
 }
 
 #copyright {
